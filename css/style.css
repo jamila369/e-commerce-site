@@ -1,0 +1,457 @@
+/*mise en forme*/
+
+#produit1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+#produit2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+#produit3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+button{
+    border-radius: 10px;
+}
+button:hover{
+     transform: translate(-6px);
+}
+
+.article:hover{
+    transform: translate(-6px);
+}
+body{
+    background-color:bisque;
+}
+/*section imageinsertion*/
+/*article homme*/
+.art1{
+    background-image: url(../articlehomme/shirtuni.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art2{
+    background-image: url(../articlehomme/sacoçche.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art3{
+    background-image: url(../articlehomme/casquette.jpg);
+    width: 100%px;
+    height: 500px;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art4{
+    background-image: url(../articlehomme/polo.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art5{
+    background-image: url(../articlehomme/longuemanche.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art6{
+    background-image: url(../articlehomme/chemcourtm.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art7{
+    background-image: url(../articlehomme/sweathoe.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art8{
+    background-image: url(../articlehomme/costume.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art9{
+    background-image: url(../articlehomme/cravate.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art10{
+    background-image: url(../articlehomme/vestecuir.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art11{
+    background-image: url(../articlehomme/jeanhomm.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art12{
+    background-image: url(../articlehomme/shorthoe.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art13{
+    background-image: url(../articlehomme/jogginghoe.jpg);
+    border-radius: 10px;
+    width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art14{
+    background-image: url(../articlehomme/mocassin.jpg);
+    border-radius: 10px;
+    width: 50%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.art15{
+    background-image: url(../articlehomme/baskethoe.jpg);
+    border-radius: 10px;
+    max-width: 50%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+
+/*article femme*/
+.im1{
+    background-image: url(../articlefemme/robemoulante.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im2{
+    background-image: url(../articlefemme/robelongue.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im3{
+    background-image: url(../articlefemme/jupecrayon.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im4{
+    background-image: url(../articlefemme/minirobe.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im5{
+    background-image: url(../articlefemme/tailleur.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im6{
+    background-image: url(../articlefemme/pantbf.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im7{
+    background-image: url(../articlefemme/jeans.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im8{
+    background-image: url(../articlefemme/parfum.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im9{
+    background-image: url(../articlefemme/sacenmain.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im10{
+    background-image: url(../articlefemme/sandale.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im11{
+    background-image: url(../articlefemme/blazer.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im12{
+    background-image: url(../articlefemme/top.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+     background-position: center;
+}
+.im13{
+    background-image: url(../articlefemme/chemise.jpg);
+    border-radius: 10px;
+    max-width: 100%px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+     background-size: cover;
+   background-position: center;
+    background-size: cover;
+     background-position: center;
+}
+.im14{
+    background-image:url(../articlefemme/combinaison.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+    
+
+}
+.im15{
+   background-image: url(../articlefemme/tuniquepagne.jpg);
+   display: block;
+   
+   height: 500px;
+   background-size: cover;
+   background-position: center;
+}
+/*article enfant*/
+.ph1{
+     background-image:url(../articleenfant/tshirtbb.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph2{
+     background-image:url(../articleenfant/pull.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph3{
+     background-image:url(../articleenfant/jupe.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph4{
+     background-image:url(../articleenfant/robe.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph5{
+     background-image:url(../articleenfant/short.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph6{
+     background-image:url(../articleenfant/pyjama.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph7{
+     background-image:url(../articleenfant/legging.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph8{
+     background-image:url(../articleenfant/salopette.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph9{
+     background-image:url(../articleenfant/chaussette.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph10{
+     background-image:url(../articleenfant/sandale.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph11{
+     background-image:url(../articleenfant/chaussure.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph12{
+     background-image:url(../articleenfant/bonnet.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph13{
+     background-image:url(../articleenfant/combinason.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph14{
+     background-image:url(../articleenfant/gilet.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+.ph15{
+     background-image:url(../articleenfant/botte.jpg);
+    border-radius: 10px;
+    max-width: 100%;
+    height: 500px;
+     background-size: cover;
+   background-position: center;
+}
+

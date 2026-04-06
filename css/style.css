@@ -24,12 +24,20 @@ button{
 button:hover{
      transform: translate(-6px);
 }
-
+.article{
+    transition: transform 0.3s;
+}
 .article:hover{
     transform: translate(-6px);
 }
 body{
-    background-color:bisque;
+    background-color:white;
+}
+h1{
+    color:rgb(95, 167, 167);
+}
+h2{
+    color: rgb(95, 167, 167);
 }
 /*section imageinsertion*/
 /*article homme*/
